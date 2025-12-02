@@ -13,7 +13,7 @@ const textToType = "Welcome to my eportfolio ! After studying in ENSPY for fours
 const textElement = document.getElementById('typewriter-text');
 
 // Vitesse de frappe en millisecondes (plus la valeur est faible, plus c'est rapide)
-const typingSpeed = 25; 
+const typingSpeed = 75; 
 
 let charIndex = 0;
 

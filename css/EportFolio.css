@@ -186,6 +186,17 @@ nav ul li a {
     text-decoration: none;
 }
 
+
+nav ul li a:hover {
+    color: #007bff; /* La couleur bleue de votre thème */
+    
+    /* Optionnel : Si vous souhaitez également une couleur de fond au survol */
+    /* background-color: #444; */ 
+    
+    /* Optionnel : Assurez-vous que la transition est fluide */
+    transition: color 0.3s ease; 
+}
+
 main {
     padding: 20px;
     max-width: 900px;
@@ -267,8 +278,9 @@ main {
     color: white;
 }
 
+
 .back-button {
-    background-color: #f0f0f0; /* Bouton gris */
+    background-color: red ; /* Bouton gris */
     color: #333;
 }
 
@@ -355,4 +367,10 @@ main {
     border-radius: 4px;
     color: #007bff;
 }
+
+
+/* Style le texte et le curseur clignotant */
+
+
+
 

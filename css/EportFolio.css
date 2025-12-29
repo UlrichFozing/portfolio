@@ -2211,3 +2211,60 @@ main{
     margin-bottom: 15px;
     color: #1e293b;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- ADAPTATION POUR TÉLÉPHONE (Écrans de moins de 768px) --- */
+@media (max-width: 768px) {
+    
+    /* 1. La grille de Hobbies : on passe de 2 ou 3 colonnes à 1 seule */
+    .hobbies-grid, .engagement-grid, .projects-container, .professional-container {
+        display: flex !important;
+        flex-direction: column !important; /* Empile les blocs verticalement */
+        align-items: center !important;
+        gap: 20px !important;
+    }
+
+    /* 2. On ajuste la largeur des cartes pour qu'elles ne dépassent pas de l'écran */
+    .hobby-card, .engagement-card, .project-card, .professional-card {
+        width: 90% !important; /* Prend presque toute la largeur du téléphone */
+        max-width: none !important;
+        margin: 10px auto !important;
+    }
+
+    /* 3. L'introduction (Photo + Texte) : on met la photo au-dessus du texte */
+    #hero-section {
+        flex-direction: column-reverse !important; /* Photo en haut, texte en dessous */
+        text-align: center !important;
+    }
+
+    .intro-text {
+        padding-right: 0 !important;
+        margin-top: 20px !important;
+    }
+
+    /* 4. On réduit la taille des titres pour qu'ils ne sortent pas de l'écran */
+    h1 {
+        font-size: 1.8rem !important;
+    }
+
+    /* 5. On ajuste le conteneur principal */
+    main {
+        width: 95% !important;
+        padding: 10px !important;
+        margin: 10px auto !important;
+    }
+}

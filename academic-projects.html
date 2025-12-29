@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Ulrich Durel Fozing Keyendjo</title>
+    <link rel="stylesheet" href="css/EportFolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div id="top-bar">
+            <a href="index.html" id="logo-link">
+                <img src="images/ENSEEIHT.png" alt="Logo de mon école" id="school-logo">
+            </a>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="education.html" class="nav-active">Education <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="academic-background.html">Academic Background</a></li>
+                            <li><a href="education.html">Certifications</a></li>
+                            <li><a href="academic-projects.html">Academic Projects</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="career.html">Career <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="career.html#internships">Internships</a></li>
+                            <li><a href="career.html#professional-projects">Professional Projects</a></li>
+                            <li><a href="career.html#work-Experience">Work Experience</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="skills.html">Skills & Technologies</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="mobility.html">Mobility and Engagement <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="mobility.html#international-mobility">International Mobility</a></li>
+                            <li><a href="mobility.html#engagement">Civic Engagement</a></li>
+                            <li><a href="mobility.html#hobbies-interests">Hobbies & Interests</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-projects">
+	    <div class="projects-container">
+	        <div class="project-card">
+			    <div class="project-image-box">
+			        <img src="images/CNC4.jpeg" alt="4-Axis CNC Project">
+			    </div>
+			    <div class="project-info">
+			        <h3>4-Axis CNC Manufacturing</h3>
+			        <p class="summary">Advanced machining project focusing on rotary axis integration for complex 3D geometry.</p>
+			        <div class="outcomes">
+			            <h4>Capabilities & Creations:</h4>
+			            <ul>
+			                <li>Mastered 360° rotary engraving for cylindrical components.</li>
+			                <li>Created high-precision mechanical parts like helical gears.</li>
+			                <li>Produced artistic 3D sculptures and custom ergonomic designs.</li>
+			            </ul>
+			        </div>
+			    </div>
+			</div>
+	
+	        <div class="project-card">
+			    <div class="project-image-box">
+			        <img src="images/tomates.jpg" alt="Tomato Preservation Project">
+			    </div>
+			    <div class="project-info">
+			        <h3>Smart Tomato Preservation System</h3>
+			        <p class="summary">Engineering a thermal control solution to maintain 11°C storage in Yaoundé's 18°C environment.</p>
+			        <div class="outcomes">
+			            <h4>Technical Achievements:</h4>
+			            <ul>
+			                <li>Managed a 7°C thermal differential through advanced insulation.</li>
+			                <li>Implemented automated cooling for constant temperature stability.</li>
+			                <li>Developed energy-efficient cycles for agricultural sustainability.</li>
+			                <li>Tailored for Yaoundé's specific tropical highland climate.</li>
+			            </ul>
+			        </div>
+			    </div>
+			</div>
+	    </div>
+	</main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column contact-info">
+                <h3>Get in touch with me</h3>
+                <p><i class="fas fa-envelope"></i> ulrich.keyendjofozing@etu.inp-n7.fr</p>
+                <p><i class="fas fa-phone"></i> +33 7 51 47 26 65</p>
+            </div>
+
+            <div class="footer-column social-follow">
+                <h3>Follow Me</h3>
+                <div class="footer-social-links">
+                    <a href="https://www.linkedin.com/in/ulrich-fozing-44036a252" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://t.me/FozingUlrich" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://wa.me/+33751472665" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column about-footer">
+                <h3>About Me</h3>
+                <p>Passionate about technology and innovation, I am always eager to learn and take on new challenges.</p>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>&copy; 2025 Keyendjo Fozing Ulrich Durel. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    
+    <div id="chat-button" onclick="toggleChat()">
+	    <i class="fas fa-comment-dots"></i> Let's chat
+	</div>
+	
+	<div id="chat-box">
+	    <div class="chat-header">
+	        Welcome to the chat space
+	    </div>
+	    <div class="chat-body">
+	    	<div id="chat-menu">
+		    	
+		        <p>We'll reply as soon as we can</p>
+		        
+		        <p>You can:</p>
+		        <ul>
+		            <li><a href="#" onclick="showForm()">Leave a message </a></li>
+		            
+		            <li><a href="#" onclick="showAvailabilities()">Check my availability for the week</a></li>
+		            
+		            <li><a href="#" onclick="toggleChat()">Close the chat space</a></li>
+		        </ul>
+		     </div>
+		     
+		     <div id="chat-form" style="display:none;">
+		     	<h3> Leave a Message </h3>
+		     	<form action= "https://formspree.io/f/mnnooogz" method= "POST">
+				    <input type="text" name="name" placeholder="Your Name" required>
+		            <input type="email" name="email" placeholder="Your Email" required>
+		            <input type="text" name="subject" placeholder="Subject">
+		            <textarea name="message" placeholder="Type your message here..." rows="4" required></textarea>
+		            
+		            <div class="file-upload">
+		                <input type="file" id="file-input" style="display:none;">
+		                <label for="file-input">Browse...</label>
+		                <span id="file-name">No file selected.</span>
+		            </div>
+		            
+		            <button type="submit" class="submit-button">Send Message</button>
+				     	
+		     	</form>
+		     	
+		     	<button type="button" class="back-button" onclick="showMenu()">Back to Menu</button>
+    		 </div>  
+    		 
+    		 <div id="chat-availability" style="display:none;">
+			    <h3>Availabilities</h3>
+			    
+			    <ul id="availability-list">  </ul>
+			    
+			    <button type="button" class="back-button" onclick="showMenu()">Back to menu</button>
+			 </div>
+    		   
+	    </div>
+	</div>
+
+    <script src="js/chat-widget.js"></script>
+</body>
+</html>

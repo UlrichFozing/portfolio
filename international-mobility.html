@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon E-Portfolio - [Votre Nom]</title>
+    <link rel="stylesheet" href="css/EportFolio.css">
+    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+    	<div id="top-bar">
+	        
+	        <a href="index.html" id="logo-link">
+	        	<img src="images/ENSEEIHT.png" alt="Logo de mon école" id="school-logo">
+	        </a>
+	        <nav id="main-nav">
+	            <ul>
+	                <li><a href="index.html">Accueil</a></li>
+	                <li><a href="about.html">About</a></li>
+	                <li class="dropdown">
+			            <a href="education.html">Education<i class="fas fa-chevron-down"></i></a>
+			            <ul class="dropdown-menu">
+			                <li><a href="academic-background.html">Academic Background</a></li>
+			                <li><a href="education.html">Certifications</a></li>
+			                <li><a href="academic-projects.html">Academic Projects</a></li>
+			            </ul>
+			        </li>
+			
+			        <li class="dropdown">
+			            <a href="career.html" >Career<i class="fas fa-chevron-down"></i></a>
+			            <ul class="dropdown-menu">
+			          		<li><a href="work-experience.html">Work Experience</a></li>
+			                <li><a href="internships.html">Internships</a></li>
+			                <li><a href="professional-projects.html">Professional Projects</a></li>
+			                
+			            </ul>
+			        </li>
+			
+			        <li><a href="skills.html">Skills & Technologies</a></li>
+			        
+			        <li class="dropdown">
+			            <a href="mobility.html"class ="nav-active">Mobility and Engagement<i class="fas fa-chevron-down"></i></a>
+			            <ul class="dropdown-menu">
+			                <li><a href="international-mobility.html">International Mobility</a></li>
+			                <li><a href="engagement.html">Civic Engagement</a></li>
+			                <li><a href="hobbies-interests.html">Hobbies & Interests</a></li>
+			                
+			            </ul>
+			        </li>
+			        
+	        
+	            </ul>
+	        </nav>
+	        
+	    </div>
+	    
+        
+    </header>
+    
+ 	<main id="mobility-main-refined">
+		    <section class="mobility-header">
+		        <h1>International Mobility</h1>
+		        <p>My journey across different cities and cultures</p>
+		    </section>
+		
+		    <div class="mobility-flex-layout">
+		        <div class="mobility-info-pane">
+		            <h2>I am from Cameroon</h2>
+		            <p>Country of hospitality and called Africa in miniature, where I grew up before my departure to Toulouse.</p>
+		        </div>
+		
+		        <div class="mobility-viewer">
+		            <div class="viewer-window">
+		                <div class="viewer-strip" id="carousel">
+		                    <img src="images/cameroun.jpg" alt="">
+		                    <img src="images/reunification.jpg" alt="">
+		                    <img src="images/ENSPY.jpg" alt="">
+		                    <img src="images/Etud-poly.jpeg" alt="">
+		                    <img src="images/foret.jpg" alt="">
+		                    <img src="images/j-aime.avif" alt="">
+		                    <img src="images/nuit.avif" alt="">
+		                </div>
+		            </div>
+		            
+		            <div class="viewer-dots">
+		                <span class="v-dot active" onclick="currentSlide(0)"></span>
+		                <span class="v-dot" onclick="currentSlide(1)"></span>
+		                <span class="v-dot" onclick="currentSlide(2)"></span>
+		                <span class="v-dot" onclick="currentSlide(3)"></span>
+		                <span class="v-dot" onclick="currentSlide(4)"></span>
+		                <span class="v-dot" onclick="currentSlide(5)"></span>
+		                <span class="v-dot" onclick="currentSlide(6)"></span>
+		            </div>
+		        </div>
+		    </div>
+		    
+		    <section class="mobility-grid-section">
+			    <div class="mobility-cards-container">
+			        <div class="mobility-city-card">
+			            <div class="city-image-header">
+			                <img src="images/douala.jpg" alt="">
+			                <div class="city-overlay-text">
+			                    <h3>Douala</h3>
+			                    <span>Cameroon</span>
+			                </div>
+			            </div>
+			            <div class="city-card-body">
+			                <span class="city-date">Birth -    2005-2020</span>
+			                <p>My birthplace and the cradle of my childhood, where I completed my primary and secondary education. This city shaped my formative years before my relocation to Yaoundé upon obtaining my baccalaureate.</p>
+			                <ul>
+			                    <li>Birthplace and childhood home</li>
+			                    <li>Early education</li>
+			                    <li>Cultural foundation</li>
+			                </ul>
+			            </div>
+			        </div>
+			
+			        <div class="mobility-city-card">
+			            <div class="city-image-header">
+			                <img src="images/yaounde.avif" alt="Yaounde">
+			                <div class="city-overlay-text">
+			                    <h3>Yaounde</h3>
+			                    <span>Cameroon</span>
+			                </div>
+			            </div>
+			            <div class="city-card-body">
+			                <span class="city-date">2020 - 2024</span>
+			                <p>Undertook advanced studies at ENSPY, where I successfully navigated my preparatory cycle and the initial two years of my engineering curriculum. This city served as the cornerstone for my expertise in mathematics and physical sciences.</p>
+			                <ul>
+			                    <li>Higher education at ENSPY</li>
+			                    <li>Cultural experiences</li>
+			                    <li>Professional development</li>
+			                </ul>
+			            </div>
+			        </div>
+			
+			        <div class="mobility-city-card">
+			            <div class="city-image-header">
+			                <img src="images/toulouse.avif" alt="Toulouse">
+			                <div class="city-overlay-text">
+			                    <h3>Toulouse</h3>
+			                    <span>France</span>
+			                </div>
+			            </div>
+			            <div class="city-card-body">
+			                <span class="city-date">2024 - Present</span>
+			                <p>Currently studying at ENSEEIHT through a partnership exchange program with Polytechnique Yaounde. Planning to pursue a double degree in 3A.</p>
+			                <ul>
+			                    <li>International education</li>
+			                    <li>Cultural exchange</li>
+			                    <li>Professional opportunities</li>
+			                </ul>
+			            </div>
+			        </div>
+			    </div>
+			</section>
+		</main>
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+    	<div class="footer-content">
+            <div class="footer-column contact-info">
+                <h3>Get in touch with me</h3>
+                <p><i class="fas fa-envelope"></i> ulrich.keyendjofozing@etu.inp-n7.fr</p>
+                <p><i class="fas fa-phone"></i> +33 7 51 47 26 65</p>
+            </div>
+
+            <div class="footer-column social-follow">
+                <h3>Follow Me</h3>
+                <div class="footer-social-links">
+                    <a href="https://www.linkedin.com/in/ulrich-fozing-44036a252 " target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://t.me/FozingUlrich" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/+33751472665" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column about-footer">
+                <h3>About Me</h3>
+                <p>Passionate about technology and innovation, I am always eager to learn and take on new challenges.</p>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>&copy; 2025 Keyendjo Fozing Ulrich Durel. All rights reserved.</p>
+        </div>
+    </footer>
+    <div id="chat-button" onclick="toggleChat()">
+	    <i class="fas fa-comment-dots"></i> Let's chat
+	</div>
+	
+	<div id="chat-box">
+	    <div class="chat-header">
+	        Welcome to the chat space
+	    </div>
+	    <div class="chat-body">
+	    	<div id="chat-menu">
+		    	
+		        <p>We'll reply as soon as we can</p>
+		        
+		        <p>You can:</p>
+		        <ul>
+		            <li><a href="#" onclick="showForm()">Leave a message </a></li>
+		            
+		            <li><a href="#" onclick="showAvailabilities()">Check my availability for the week</a></li>
+		            
+		            <li><a href="#" onclick="toggleChat()">Close the chat space</a></li>
+		        </ul>
+		     </div>
+		     
+		     <div id="chat-form" style="display:none;">
+		     	<h3> Leave a Message </h3>
+		     	<form action= "https://formspree.io/f/mnnooogz" method= "POST">
+				    <input type="text" name="name" placeholder="Your Name" required>
+		            <input type="email" name="email" placeholder="Your Email" required>
+		            <input type="text" name="subject" placeholder="Subject">
+		            <textarea name="message" placeholder="Type your message here..." rows="4" required></textarea>
+		            
+		            <div class="file-upload">
+		                <input type="file" id="file-input" style="display:none;">
+		                <label for="file-input">Browse...</label>
+		                <span id="file-name">No file selected.</span>
+		            </div>
+		            
+		            <button type="submit" class="submit-button">Send Message</button>
+				     	
+		     	</form>
+		     	
+		     	<button type="button" class="back-button" onclick="showMenu()">Back to Menu</button>
+    		 </div>  
+    		 
+    		 <div id="chat-availability" style="display:none;">
+			    <h3>Availabilities</h3>
+			    
+			    <ul id="availability-list">  </ul>
+			    
+			    <button type="button" class="back-button" onclick="showMenu()">Back to menu</button>
+			 </div>
+    		   
+	    </div>
+	</div>
+	
+	
+	
+	<script src="script/chat-widget.js">
+	</script>
+	<script>
+	    let currentIndex = 0;
+	    let direction = 1; // 1 pour aller vers l'avant, -1 pour reculer
+	    const slides = document.getElementById('carousel');
+	    const dots = document.querySelectorAll('.dot');
+	    const totalSlides = 7; // Basé sur vos 7 images
+	
+	    function updateCarousel() {
+	        if(!slides) return;
+	        // Déplacement fluide vers l'image actuelle
+	        slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+	        
+	        // Mise à jour des points indicateurs
+	        dots.forEach((dot, index) => {
+	            dot.classList.toggle('active', index === currentIndex);
+	        });
+	    }
+	
+	    function autoPlay() {
+	        // 1. Calculer le prochain index
+	        currentIndex += direction;
+	
+	        // 2. Si on dépasse la dernière image (index 6), on change de sens
+	        if (currentIndex >= totalSlides - 1) {
+	            currentIndex = totalSlides - 1;
+	            direction = -1; // On commence à reculer
+	        } 
+	        // 3. Si on revient avant la première image (index 0), on change de sens
+	        else if (currentIndex <= 0) {
+	            currentIndex = 0;
+	            direction = 1; // On repart vers l'avant
+	        }
+	
+	        updateCarousel();
+	    }
+	
+	    // Intervalle réglé à 1500ms (1.5 secondes)
+	    setInterval(autoPlay, 1500);
+	
+	    // Garder les fonctions manuelles si besoin
+	    function currentSlide(index) {
+	        currentIndex = index;
+	        updateCarousel();
+	    }
+	</script>
+</body>
+</html>

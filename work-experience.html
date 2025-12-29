@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Ulrich Durel Fozing Keyendjo</title>
+    <link rel="stylesheet" href="css/EportFolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div id="top-bar">
+            <a href="index.html" id="logo-link">
+                <img src="images/ENSEEIHT.png" alt="Logo de mon école" id="school-logo">
+            </a>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="education.html" >Education <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="academic-background.html">Academic Background</a></li>
+                            <li><a href="education.html">Certifications</a></li>
+                            <li><a href="academic-projects.html">Academic Projects</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="career.html" class="nav-active">Career <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                           	<li><a href="work-experience.html">Work Experience</a></li>
+                            <li><a href="internships.html">Internships</a></li>
+                            <li><a href="professional-projects.html">Professional Projects</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="skills.html">Skills & Technologies</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="mobility.html">Mobility and Engagement <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="mobility.html#international-mobility">International Mobility</a></li>
+                            <li><a href="mobility.html#engagement">Civic Engagement</a></li>
+                            <li><a href="mobility.html#hobbies-interests">Hobbies & Interests</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+	<main class="experience-container">
+	    <section class="experience-header">
+	        <h1>Professional Experience</h1>
+	        <p>Here are my relevant professional experiences as a fluid mechanics engineering student that have shaped my career path.</p>
+	    </section>
+	
+	    <div class="experience-card">
+	        <div class="card-title">
+	            <i class="fas fa-briefcase"></i>
+	            <h2>Mechanical engineering intern at the FABLAB</h2>
+	        </div>
+	
+	        <div class="card-content">
+	            <div class="info-row">
+	                <img src="https://www.google.com/s2/favicons?domain=yowyob.com&sz=32" alt="Yowyob Logo" class="company-icon">
+	                <span>FABLAB</span>
+	            </div>
+	            
+	            <div class="info-row">
+	                <i class="fas fa-map-marker-alt"></i>
+	                <span>Yaounde, Cameroon</span>
+	            </div>
+	
+	            <div class="info-row">
+	                <i class="far fa-calendar-alt"></i>
+	                <span>July 2024 - August 2024</span>
+	            </div>
+	
+	            <ul class="task-list">
+	                <li>High-temperature thermal regulation.</li>
+	                <li>Thermal conservation engineering.</li>
+	                <li>CNC industrial system control.</li>
+	                <li>Prototyping and R&D. </li>
+	            </ul>
+	        </div>
+	    </div>
+	</main>
+  
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column contact-info">
+                <h3>Get in touch with me</h3>
+                <p><i class="fas fa-envelope"></i> ulrich.keyendjofozing@etu.inp-n7.fr</p>
+                <p><i class="fas fa-phone"></i> +33 7 51 47 26 65</p>
+            </div>
+
+            <div class="footer-column social-follow">
+                <h3>Follow Me</h3>
+                <div class="footer-social-links">
+                    <a href="https://www.linkedin.com/in/ulrich-fozing-44036a252" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://t.me/FozingUlrich" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://wa.me/+33751472665" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column about-footer">
+                <h3>About Me</h3>
+                <p>Passionate about technology and innovation, I am always eager to learn and take on new challenges.</p>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>&copy; 2025 Keyendjo Fozing Ulrich Durel. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    
+    
+    <div id="chat-button" onclick="toggleChat()">
+	    <i class="fas fa-comment-dots"></i> Let's chat
+	</div>
+	
+	<div id="chat-box">
+	    <div class="chat-header">
+	        Welcome to the chat space
+	    </div>
+	    <div class="chat-body">
+	    	<div id="chat-menu">
+		    	
+		        <p>We'll reply as soon as we can</p>
+		        
+		        <p>You can:</p>
+		        <ul>
+		            <li><a href="#" onclick="showForm()">Leave a message </a></li>
+		            
+		            <li><a href="#" onclick="showAvailabilities()">Check my availability for the week</a></li>
+		            
+		            <li><a href="#" onclick="toggleChat()">Close the chat space</a></li>
+		        </ul>
+		     </div>
+		     
+		     <div id="chat-form" style="display:none;">
+		     	<h3> Leave a Message </h3>
+		     	<form action= "https://formspree.io/f/mnnooogz" method= "POST">
+				    <input type="text" name="name" placeholder="Your Name" required>
+		            <input type="email" name="email" placeholder="Your Email" required>
+		            <input type="text" name="subject" placeholder="Subject">
+		            <textarea name="message" placeholder="Type your message here..." rows="4" required></textarea>
+		            
+		            <div class="file-upload">
+		                <input type="file" id="file-input" style="display:none;">
+		                <label for="file-input">Browse...</label>
+		                <span id="file-name">No file selected.</span>
+		            </div>
+		            
+		            <button type="submit" class="submit-button">Send Message</button>
+				     	
+		     	</form>
+		     	
+		     	<button type="button" class="back-button" onclick="showMenu()">Back to Menu</button>
+    		 </div>  
+    		 
+    		 <div id="chat-availability" style="display:none;">
+			    <h3>Availabilities</h3>
+			    
+			    <ul id="availability-list">  </ul>
+			    
+			    <button type="button" class="back-button" onclick="showMenu()">Back to menu</button>
+			 </div>
+    		   
+	    </div>
+	</div>
+
+    <script src="js/chat-widget.js"></script>
+</body>
+</html>
